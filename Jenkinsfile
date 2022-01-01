@@ -12,7 +12,7 @@ node{
     stage('Building And Pushing Image') {
   		try {
   
-			sh 'git clone -b master https://github.com/email2smohanty/aquasec.git'
+			sh 'git clone -b main https://github.com/email2smohanty/aquasec.git'
                   
 
 			//Build docker image
