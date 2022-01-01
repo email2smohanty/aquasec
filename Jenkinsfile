@@ -16,7 +16,7 @@ node{
                   
 
 			//Build docker image
-            dir("${APP_Git_Repo}/") {
+            dir("aquasec/") {
                   sh "docker build -t email2smohanty/aquasec:latest ."
            }
 
