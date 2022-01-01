@@ -11,7 +11,7 @@ node{
 
     stage('Building And Pushing Image') {
   		try {
-  
+                        sh 'rm -rf aquasec'
 			sh 'git clone -b main https://github.com/email2smohanty/aquasec.git'
                   
 
