@@ -21,7 +21,7 @@ node{
            }
 
 			//Push image to artifactory
-			sh "docker push email2smohanty/aquasec:latest ."
+			sh "docker push email2smohanty/aquasec:latest"
   			
   	  	} catch (e) {
   			println(e.toString())
